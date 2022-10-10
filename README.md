@@ -17,5 +17,15 @@ National Museums Scotland was a project for the Graded Unit 2 class for the HND 
 * Book for workshops, exhibitions and tours and to encourage discussion within the community
 
 ### Technologies
+* Bootstrap
+* JavaScript
+* PHP
+* MySQL
+
+## Screen Shots
+
+## What I Learned
 *
-* 
+
+## How to Use
+
