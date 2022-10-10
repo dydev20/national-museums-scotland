@@ -1,6 +1,6 @@
 # National Museums Scotland
 
-#### Table of Contents
+## Table of Contents
 * Description
 * Screen Shots
 * What I Learned
@@ -16,7 +16,7 @@ National Museums Scotland was a project for the Graded Unit 2 class for the HND 
 * Interactive content for children so that they can learn while having fun 
 * Book for workshops, exhibitions and tours and to encourage discussion within the community
 
-### Technologies
+#### Technologies
 * Bootstrap
 * JavaScript
 * PHP
