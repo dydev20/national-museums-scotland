@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans&display=swap');
+
+*{margin:0;padding:0;box-sizing: border-box;}
+body{font-family: 'Noto Sans', sans-serif;}
+h1,h2{color:#583923;font-family: 'Kanit',sans-serif;}
+h1{font-size: 2.3rem;}
+h2{font-size:1.875rem}
+input[type="submit"],button{cursor:pointer;}
+input[type="submit"]:hover,button:hover{background-color: #754f33;}
+select{background-color: white;}
+a{color:black;}
+a:hover{text-decoration: none;color:#583923;}
+
+/* navbar */
+.navbar-light .navbar-brand{
+    font-family: 'Kanit',
+    sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#583923;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-toggler {border:none;}
+.navbar-nav a:nth-child(4){border-right: 1.3px solid #910000;}
+
+.navbar-nav {margin-left: auto;}
+
+/* heading banner */
+.heading-banner{
+    background-color:#EFE4D2;
+    display:flex;
+    align-items: center;
+    padding:18px 4%;
+    
+}
+
+.heading-banner h1{padding-right:0.5em;}
+
+.heading-banner h2{
+    border-left: 3px solid #910000;
+    margin-bottom: 0;
+    padding-left:0.5em;
+}
+main{margin-bottom:6em;}
+.button{border-radius: 3px;background-color: #583923;border:none;font-weight: bold;color:white;}
+
+
+/* home page */
+.about{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../images/museum.jpg");
+    background-size: 100% 100%;
+    position:relative;
+    height:25em;
+    z-index:0;
+}
+.about h1{color:white;margin-bottom:0.5em;}
+.overlay{
+    opacity:0.75;
+    background-color: black;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: 1;
+    
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white;
+    z-index:2;
+    width:50%;
+    margin:3em 4em 0 0;
+    
+    position: absolute;
+}
+
+.home{
+    margin:0 0 5em 0;
+    
+}
+.home h2{border:none;}
+.home-events .results-grid{margin-bottom:3em;}
+ .home-btn{padding:0.5em 2.5em;}
+.home-btn a{color:white;}
+.home-events .home-btn{
+    margin-top:1.8em;
+    margin-bottom:5em;
+}
+
+.carousel{
+    width:50%;
+    margin:0 auto;
+}
+.home-collections .home-btn{display:block;margin:3em auto 5em auto;}
+
+.benefits{margin:0 auto;width:max-content;}
+.benefits ul{padding-left: 1em;}
+.benefits li{list-style-type: disc;}
+.benefits .home-btn{display:block;margin:1.8em auto 5em auto; }
+
+
+/* events page */
+.content-container{
+    margin:0 8%;
+}
+.search-container{margin-top:2.3em;}
+
+.search-container form{display: flex;justify-content: space-around;}
+
+.label-input{display:flex;flex-direction: column;}
+
+.event-submit,.collection-submit,.collection-search{align-self: end;}
+
+input[type="checkbox"]{height:100%;width:100%;}
+
+
+.input{
+    padding:0.15em 0 0.15em 0.18em;
+    border:1.4px solid black;
+    border-radius:3px;
+}
+
+
+.card{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.event-submit{
+    
+    padding:0 2.5em;
+    height:1.89em;
+    
+}
+
+
+.results-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    row-gap: 4em;
+    margin-top:6em;
+    justify-items: center;
+}
+
+.card-header{
+    background-color:#EFE4D2;
+    border-bottom:none;
+    color:#583923
+}
+.card-header p {
+    margin-bottom:0;
+    text-decoration: underline;
+    text-underline-offset: 0.9em;
+    text-decoration-color: #910000;
+    font-weight: bold;
+}
+
+.card-img-top{
+    height:165px;
+    border-radius: 0;
+}
+
+.card{width:16.4em;}
+
+
+/* collections page */
+.collection-submit{
+    height:1.89em;
+    padding:0 2em;
+}
+#collection{padding-right:2em;}
+.collection-search{height:1.89em;width:40%;}
+.text-input {padding-left: 0.7em;}
+
+
+.collection-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 4em;
+    margin-top:5em;
+    justify-items: center;
+
+}
+
+.item{text-align: center;}
+
+.item-img{
+    width:200px;
+    height:200px;
+}
+
+.item p{margin-bottom:0.5em;}
+.itemName{margin-top:1em;}
+
+
+/* sign in, register page */
+.register-login form{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    width:35%;
+    margin:0 auto;
+    margin-top:3em;
+}
+.register-login-btn{
+    width:100%;
+    padding: 0.3em 0;
+    margin-top:0.5em;
+}
+.acc-input {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+input[type="radio"]{
+    position:absolute;
+    opacity:0;
+    width:0;
+    height:0;
+}
+input[type="radio"]+i{cursor:pointer;}
+
+
+
+
+/* event pages */
+.event{
+    display:grid;
+    grid-template-areas: 
+    "img info"
+    "description description";
+    grid-template-columns: repeat(2,1fr);
+    margin:4em 0 8em 0;
+    row-gap: 3em;
+    column-gap: 1em;
+}
+.event-img{grid-area:img;width:95%;height:100%;}
+.event-info{grid-area:info;margin:auto 0;}
+.event-description{grid-area:description;}
+.event-info li{margin-bottom:1em;}
+
+.book-btn{width:100%;padding:1.2em 0;margin-top:2em;}
+
+
+textarea{resize: none;width:100%;height:8em;}
+.review-submit-btn{padding:0.5em 6em; margin:1.5em 0;}
+
+.star-rating{margin:0.5em 0;}
+.fa-star{
+    font-size:25px;
+    border:none;
+    color:orange;
+    background-color:white;
+}
+.star .fa-solid.fa-star{
+    display:none;
+}
+.rating-btn{border:none;}
+
+.user-reviews{margin-top:5em;}
+.user-rating{margin-bottom:1.5em;}
+.delete-review{
+    display:block;
+    margin-bottom:4em;
+    padding:0.1em 1.2em;
+    border:1px solid black;
+    border-radius: 3px;
+}
+input[type="submit"].delete-review:hover {
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.review-username{margin-top:4em;}
+
+
+
+/* account */
+.manage-acc{margin-top:2em;}
+.manage-event{display: flex;flex-direction: column;}
+.museum-name{min-height:48px;}
+.cancel-booking-btn{width:100%;padding:0.5em 0;}
+
+/* learn and play */
+.learn-play{
+    margin-top:5em;
+    margin-bottom:13em;
+    display:grid;
+    grid-template-areas: 
+    "guess1 guess2"
+    "guess3 guess4";
+    row-gap: 8em;
+}
+.guess-info{margin-bottom:0;margin-top:2em;}
+.guess-container{width:60%;margin:0 auto;}
+.guess-img,.guess-input,.guess-submit{width:100%;}
+
+.guess-img{height:250px;}
+.guess-input{margin:1em 0;padding-top:0.4em;padding-bottom:0.4em;}
+.guess-submit{padding:0.6em 0;}
+.guess1{grid-area:guess1;}
+.guess2{grid-area:guess2;}
+.guess3{grid-area:guess3;}
+.guess4{grid-area:guess4;}
+.guess-result{margin-top:1em;font-weight: bold;margin-bottom:0;}
+
+
+/* footer */
+.page-container{
+    position:relative;
+    min-height:100vh;
+    padding-bottom:2.5em;
+
+    
+}
+footer{
+    
+    position:absolute;
+    border-top:1px solid black;
+    padding:2em ;
+    bottom:0;
+    width:100%;
+    height:2.5em;
+    display: grid;
+    grid-template-areas: 
+    "navigation membership contact social"
+    "legal legal legal legal"
+    ;
+
+}
+.footer-heading{font-size: 1rem;color:black}
+.footer-nav{grid-area:navigation;margin:0 auto;}
+.footer-membership{grid-area:membership;margin: 0 auto;}
+.footer-contact{grid-area:contact;margin: 0 auto;}
+.footer-social{grid-area:social;text-align: center;margin: 0 auto;}
+.footer-legal{grid-area:legal;text-align: center;margin: 0 auto;margin-top:1em;}
+
+.social-icons{display: flex;gap:1.5em;justify-content: center;}
+.fa-brands{
+    font-size: 35px;
+    color:black;
+}
+li{list-style-type: none;}
+
+
+@media screen and (max-width:800px) {
+    .register-login form{
+        width:60%;
+    }
+    .carousel {width:100%;}
+    .heading-banner.home {margin-bottom:2em;}
+    .about{justify-content: center;align-items: center;}
+    .text-container{width:90%;margin:0;}
+    .home-btn{width:100%;}
+}
+
+@media screen and (max-width:852px) {
+    .content-container{margin: 0 5%;}
+}
+@media screen and (max-width:767px) {
+    .navbar-nav a:nth-child(4) {border-right: none;}
+    .navbar .navbar-toggler:hover{background-color:#f8f9fa;}
+}
+@media screen and (max-width:760px) {
+    
+    .heading-banner{align-items:flex-start;}
+    .heading-banner h2{
+        border-left: none;
+        border-top: 2px solid #910000;
+        padding-left: 0;
+    }
+    .home h2{border:none;}
+    form,.heading-banner{flex-direction: column;}
+
+    .heading-banner{padding:16px 4%;}
+    .heading-banner h2{padding-top:0.3em;}
+    .home h2 {padding-top: 0;}
+    form{gap:1em;}
+    
+    input[type="checkbox"] {
+            height: 1.5em;
+            width: 1.5em;
+    }
+    .free{flex-direction: row;}
+    .free label{order:1;margin-left:0.5em;}
+    input[type="submit"]{align-self: auto;}
+
+    .collection-search,.collection-submit{width:100%;}
+
+    .event{
+        grid-template-areas:
+        "img"
+        "description"
+        "info";
+        grid-template-columns: none;
+    }
+    .event-img{margin:0 auto;}
+    .event-info{text-align: center;}
+    .book-btn,.review-submit-btn{width:100%;padding:0.3em 0;margin-top:1em;}
+    .user-reviews{margin-top:3em;}
+    
+    .learn-play{
+        grid-template-areas:
+            "guess1"
+            "guess2"
+            "guess3" 
+            "guess4";
+    }
+
+
+    footer{
+        grid-template-areas: 
+        "navigation membership"
+        "contact contact"
+        "social social"
+        "legal legal"
+        ;
+        row-gap:2em;
+        column-gap: 3.5em;
+    }
+
+    .footer-contact,.footer-nav,.footer-membership{margin:0;}
+    
+    .fa-brands{font-size: 28px;}
+
+}
+
+@media screen and (max-width:500px) {
+    .register-login form{width:80%;}
+}
+
+@media screen and (max-width:400px) {
+    .guess-container {width: 80%;}
+}
+
+@media screen and (max-width:350px) {
+    .results-grid{
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
