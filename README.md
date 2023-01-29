@@ -1,7 +1,10 @@
 # National Museums Scotland
 
 ## Description
-National Museums Scotland was a project for the Graded Unit 2 class for the HND Web Development course. The purpose of this project was to use and consolidate the web development skills that have been gained through all the units that have been completed in the HND Web Development course.
+A website for National Museums Scotland who care for collections and making them accessible for the public
+
+* Developed for Graded Unit 2 class for the HND Web Development course
+* To consolidate on the skills gained through the course
 
 #### Features 
 * Search and view collections inside Scottish museums  
@@ -17,8 +20,6 @@ National Museums Scotland was a project for the Graded Unit 2 class for the HND 
 
 ## Screen Shots
 
-## What I Learned
-*
 
 ## URL to Website
 * https://nationalmuseumsscotland.000webhostapp.com/index.php
