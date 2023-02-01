@@ -1,24 +1,23 @@
 # National Museums Scotland
 
 ## Description
-A website for National Museums Scotland who care for collections and making them accessible for the public
+* A website for National Museums Scotland who care for collections and making them accessible for the public
 
 * Developed for Graded Unit 2 class for the HND Web Development course
-* To consolidate on the skills gained through the course
 
-#### Features 
+## Features 
 * Search and view collections inside Scottish museums  
 * Search and book museum events
 * Rate and review events
 * View and manage booked events
 
-#### Technologies
+## Technologies
 * Bootstrap
 * JavaScript
 * PHP
 * SQL
 
-## Screen Shots
+## Screenshots
 ![national museums scotland - search events](https://user-images.githubusercontent.com/90397446/215546936-e06d3683-3d3f-42ae-88e9-978c53145994.png)
 ![national museums scotland - search collections](https://user-images.githubusercontent.com/90397446/215546964-6e5b6f96-ac46-431f-8e0b-f0bef35fe906.png)
 ![national museums scotland - book and review event](https://user-images.githubusercontent.com/90397446/215546984-ef3d3a66-7c7a-4bb3-8914-1da8f2d1061f.png)
