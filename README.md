@@ -26,6 +26,10 @@
 
 ![national museums scotland - manage booked events](https://user-images.githubusercontent.com/90397446/215547006-1fd6e235-7794-46b0-b5b5-ef5711972e5e.png)
 
+## What I Learned
+* How to implement SQL inner join
+* How to develop a star rating and review feature 
+
 ## URL to Website
 * https://nationalmuseumsscotland.000webhostapp.com/index.php
 * To use website features - book, manage and review events - register an account on the Register page or sign in with the account below
