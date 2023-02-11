@@ -3,8 +3,6 @@
 ## Description
 * A website for National Museums Scotland who care for collections and making them accessible for the public
 
-* Developed for Graded Unit 2 class for the HND Web Development course
-
 ## Features 
 * Search and view collections inside Scottish museums  
 * Search and book museum events
