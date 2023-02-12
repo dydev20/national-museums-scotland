@@ -1,7 +1,7 @@
 # National Museums Scotland
 
 ## Description
-* A website for National Museums Scotland who care for collections and making them accessible for the public
+* A website for National Museums Scotland who care for collections and makes them accessible for the public
 
 ## Features 
 * Search and view collections inside Scottish museums  
